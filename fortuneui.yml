@@ -2,6 +2,9 @@ eureka:
   client:
     shouldRegisterWithEureka: false
     validate_certificates: false 
+hystrix:
+  stream:
+    validate_certificates: false
 fortuneService:
   scheme: http
   address: fortuneservice
