@@ -10,3 +10,7 @@ fortuneService:
   address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
+security:
+  oauth2:
+    client:
+      validate_certificates: false

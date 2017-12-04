@@ -4,3 +4,7 @@ eureka:
     validate_certificates: false 
   instance:
     port: 5000
+security:
+  oauth2:
+    client:
+      validate_certificates: false
