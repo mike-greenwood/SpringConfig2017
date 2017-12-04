@@ -1,5 +1,6 @@
 eureka:
   client:
     shouldFetchRegistry: false
+    validate_certificates: false 
   instance:
     port: 5000

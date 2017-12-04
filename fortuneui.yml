@@ -1,6 +1,7 @@
 eureka:
   client:
     shouldRegisterWithEureka: false
+    validate_certificates: false 
 fortuneService:
   scheme: http
   address: fortuneservice
